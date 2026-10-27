@@ -2,6 +2,7 @@ import "./App.css";
 import Digitalclock from "./digitalClock/digitalclock";
 import Counter from "./counter/counter";
 import Calculator from "./calculator/calculator";
+import TemperatureConverter from "./temprature_converter/tempreature";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Digitalclock />
       <Counter />
       <Calculator />
+      <TemperatureConverter />
     </div>
   );
 }
